@@ -395,7 +395,7 @@ main{
 .pointer{
     width:20px;
     height:20px;
-    display:flex;
+    display:none;
     justify-content:center;
     align-items: center;
     border-radius:50%;
@@ -437,7 +437,6 @@ p{
     height:auto;
     flex:1;
     display:flex;
-    opacity:0.9;
     justify-content:center;
     align-items:center;
     flex-direction: column;
@@ -469,6 +468,9 @@ p{
 #resume{
     width:120px;
     height:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     border-radius:40px;
     color: var(--light-color);
     background-color:var(--purple-color);
@@ -1168,6 +1170,9 @@ footer nav ul{
         font-size:15rem;
     }
 
+    .pointer{
+        display:flex;
+    }
     .spot{
         width:calc(100% - 96px);
         top:40%;
