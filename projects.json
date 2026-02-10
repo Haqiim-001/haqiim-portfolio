@@ -1,0 +1,100 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Countries viewer app",
+      "stack": ["nextjs", "tailwind css", "redux toolkit", "restcountries api"],
+      "description": "A frontend web application that makes use of the rest country api to display information about different countries in the world.",
+      "tags": ["frontend", "next, tailwind", "restcountries api"],
+      "imgSrc": ["../assets/images/countries.png"],
+      "githubLink": "https://github.com/CoderHaqiim/country-view",
+      "liveLink": "https://haqiim-countries-list.netlify.app/",
+      "likes": 100,
+      "liked": false
+    },
+    {
+      "id": 1,
+      "title": "Task manager app",
+      "stack": ["html", "css", "javascript", "nodejs", "express", "restful api", "mongoose"],
+      "description": "A multi-user task management application. Application can create, edit and delete tasks. It also recommends tasks based on priority and due date. Use: email-pseudo.mail@gmail.com, password-Pseudo111.",
+      "tags": ["fullstack", "express", "javascript"],
+      "imgSrc": ["../assets/images/taskmanager.png"],
+      "githubLink": "https://github.com/CoderHaqiim/task-manager",
+      "liveLink": "https://haqiim-taskmaster.netlify.app/",
+      "likes": 0,
+      "liked": false
+    },
+    {
+      "id": 2,
+      "title": "space tourism site",
+      "stack": ["react", "tailwind css", "redux"],
+      "description": "A frontend mentors project.",
+      "tags": ["frontend", "react"],
+      "imgSrc": ["../assets/images/space-tourism.png"],
+      "githubLink": "https://github.com/CoderHaqiim/space-tourism",
+      "liveLink": "https://haqiim-space-tourism.netlify.app/",
+      "likes": 0,
+      "liked": false
+    },
+    {
+      "id": 3,
+      "title": "Ticket generator",
+      "stack": ["html", "css", "javascript", "react"],
+      "description": "A web application that allows users to enter their personal details, select the number of tickets they wish to purchase, and download their tickets after completing the purchase.",
+      "tags": ["frontend", "react"],
+      "imgSrc": ["../assets/images/ticketgenerator.png"],
+      "githubLink": "https://github.com/CoderHaqiim/hng12-stage2-conference-ticket-generator",
+      "liveLink": "https://haqiim-ticket-generator.netlify.app/",
+      "likes": 0,
+      "liked": false
+    },
+    {
+      "id": 4,
+      "title": "Quibbles app clone",
+      "stack": ["html", "css", "javascript"],
+      "description": "An interview project built with html, css, javascript",
+      "tags": ["frontend", "react"],
+      "imgSrc": ["../assets/images/quibbles.png"],
+      "githubLink": "https://github.com/CoderHaqiim/Quibble",
+      "liveLink": "https://quibbles-nysc-tab.netlify.app/",
+      "likes": 0,
+      "liked": false
+    },
+    {
+      "id": 5,
+      "title": "Music player app",
+      "stack": ["html", "css", "javascript"],
+      "description": "A simple music player application that allows users to play songs and control playback with ease.",
+      "tags": ["frontend"],
+      "imgSrc": ["../assets/images/musicplayer.png"],
+      "githubLink": "https://github.com/CoderHaqiim/player_x",
+      "liveLink": "https://haqiim-player-x.netlify.app/",
+      "likes": 0,
+      "liked": false
+    },
+    {
+      "id": 6,
+      "title": "easybank",
+      "stack": ["html", "css", "javascript"],
+      "description": "This is a sample text that does nothing. It is meant to hold the description of the project.",
+      "tags": ["frontend"],
+      "imgSrc": ["../assets/images/easybank.png"],
+      "githubLink": "https://github.com/CoderHaqiim/easybank",
+      "liveLink": "https://inspiring-pegasus-68a88f.netlify.app/",
+      "likes": 0,
+      "liked": false
+    },
+    {
+      "id": 7,
+      "title": "space tourism site",
+      "stack": ["react", "tailwind css, redux"],
+      "description": "A frontend mentors project. Site talks about disSite introduces different scientists",
+      "tags": ["frontend", "react"],
+      "imgSrc": ["../assets/images/space-tourism.png"],
+      "githubLink": "https://github.com/CoderHaqiim/space-tourism",
+      "liveLink": "https://haqiim-space-tourism.netlify.app/",
+      "likes": 0,
+      "liked": false
+    }
+  ]
+}

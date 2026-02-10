@@ -4,36 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Moul&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+    <div class="projects-page">
+        <div class="container">
+            <button class="close-projects">
+                <img src="assets/svgs/close.svg" alt="">
+            </button>
+            <div class="heading2 bold">Projects</div>
+            <div class="all-projects">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="pointer"></div>
     <header class="main-header glass">
         <nav>
             <div class="container">
-                <div class="logo">
+                <a href="#home" class="logo">
                     <img src="assets/svgs/logo2.svg" alt="">
-                </div>
-                <div class="navs">
-                    <ul>
-                        <a href="">
-                            <li>home</li>
-                        </a>
-                        <a href="">
-                            <li>about</li>
-                        </a>
-                        <a href="">
-                            <li>works</li>
-                        </a>
-                        <a href="">
-                            <li>contact</li>
-                        </a>
-                    </ul>
+                </a>
+                <div class="resume-profile">
+                    <div class="navs">
+                        <ul class="p-small">
+                            <a href="#home">
+                                <li>home</li>
+                            </a>
+                            <a href="#about">
+                                <li>about me</li>
+                            </a>
+                            <a href="#works">
+                                <li>my works</li>
+                            </a>
+                            <a href="#contact">
+                                <li>contact me</li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <button id="resume">
+                        Resume
+                    </button>
+
                     <div class="profile">
                         <img src="assets/images/akeem.png" alt="">
                     </div>
@@ -43,31 +57,351 @@
     </header>
     <main>
         <section id="home">
+            <div class="background">
+                <div class="image">
+                    <img src="assets/images/3dimage.png" alt="3d carton image of the develoer">
+                </div>
+            </div>
             <div class="container">
-
+                <div class="spot">
+                    <div class="location">
+                        <span class="location-img">
+                            <img src="assets/svgs/location.svg" alt="">
+                        </span>
+                        <div class="p-tiny flex">
+                            <div>Lagos, Nigeria </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero">
+                    <header>
+                        <h1 class="heading1 h-name orbitron">haqiim</h1>
+                    </header>
+                    <p class=" hero-p cursive">Software Developer</p>
+                </div>
+                <div class="hero-bottom">
+                    <div class="exp orbitron">
+                        <p class="p-tiny exp-item">
+                            <span class="bold3 p-large">4+</span> 
+                            <span class="light-p">years exp.</span>
+                        </p>
+                        <div class="divider"></div>
+                        <p class="p-tiny exp-item">
+                            <span class="bold3 p-large">20+</span> 
+                            <span class="light-p">projects</span>
+                        </p>
+                    </div>
+                    <div class="socials1">
+                        <a target="_blank" href="mailto:jayeola.haqiim@gmail.com" target="_blank" class="icon social-icons" data-text="message" id="si-1">
+                            <img src="assets/svgs/message.svg" alt="">
+                            <!-- <span class="icon-text p-tiny">messages</span> -->
+                        </a>
+                        <a target="_blank" href="https://x.com/_Haqiim" class="icon social-icons" data-text="twitter"id="si-2">
+                            <img src="assets/svgs/twitter.svg" alt="">
+                            <!-- <span class="icon-text p-tiny">twitter</span> -->
+                        </a>
+                        <a target="_blank" href="https://web.facebook.com/thomas.jaye.31" class="icon px social-icons" data-text="facebook"id="si-3">
+                            <img src="assets/svgs/facebook.svg" alt="">
+                            <!-- <span class="icon-text p-tiny">facebook</span> -->
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="about">
-             <div class="container">
-                
+            <div class="container">
+                <div class="content">
+                    <div class="left">
+                        <header>
+                            <h2 class="heading2 orbitron bold">
+                                about me
+                            </h2>
+                        </header>
+                        <div class="about-content">
+                            <p class="p-large funnel">
+                                Hello, I am <em>Jayeola Abdulhakeem</em> but you can call me <em>Haqiim</em>.
+                                I am a Software developer with over <em>4 years of experience</em> building beautiful an highly interactive web experiences.
+                                From functional web applications to engaging frontend interfaces and interactive landing pages, I specialize in turning ideas into seamless digital experiences. 
+                                Beyond coding I love playing games, most especially chess, and I also express my creativity through art.<br><br>
+                                If you are thinking of dynamic, user friendly and visualy appealing web solutions, that's my cup of tea.
+                            </p>
+                            <!-- <div class="hobbies">
+                                <div class="hobby p-tiny">
+                                    <span>chess</span>
+                                    <div class="icon2">
+                                        <img src="assets/svgs/chess-king-svgrepo-com.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="hobby p-tiny">
+                                    <span>creative coding</span>
+                                    <div class="icon2">
+                                        <img src="assets/svgs/coding-html-svgrepo-com.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="hobby p-tiny">
+                                    <span>art</span>
+                                    <div class="icon2">
+                                        <img src="assets/svgs/art-gallery-svgrepo-com.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="hobby p-tiny">
+                                    <span>creative writing</span>
+                                    <div class="icon2">
+                                        <img src="assets/svgs/writing-hand-svgrepo-com.svg" alt="">
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="me-profile">
+                            <div class="me">
+                                <img src="assets/images/akeem.png" alt="my profile picture">
+                            </div>
+                            <div class="bold names">
+                                <span class="p-small">Jayeola Abdulhakeem</span>
+                                <span class="p-tiny color3">
+                                    <span class="dot"></span>
+                                    Software developer
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="works">
              <div class="container">
-                
+                <header>
+                    <h2 class="heading2 orbitron bold">works</h2>
+                </header>
+                <div class="content">
+                    <div class="cards">
+            
+                    <div class="more-projects">
+                        <button class="see-more">
+                            <span>see more projects</span>
+                            <span class="left2">
+                                <img src="assets/svgs/left2.svg" alt="">
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="padded" id="skills">
+             <div class="container">
+                <div class="content">
+                     <div class="skill-left">
+                        <div class="skill-box">
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/next.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Next</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/react.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">React</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/redux.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Redux</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/javascript.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Javascript</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/typescript.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Typescript</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/express.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Express</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/node.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Node</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/tailwind.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Tailwind</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/css.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Css</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/html.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Html</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/mongoose.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Mongoose</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/github2.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Github</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/figma-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">Figma</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/npm.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">NPM</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/npm.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">NPM</div>
+                            </div>
+                            <div class="tool" id="Next">
+                                <div class="tool-icon">
+                                    <img src="assets/svgs/npm-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="item-name p-tiny">NPM</div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="skill-right">
+                        <header>
+                            <h2 class="heading2 orbitron bold">
+                                skills 
+                            </h2>
+                        </header>
+                        <div class="skill-content">
+                            <div>
+                                <h3 class="white heading4">Technical skills</h3>
+                                <div class="skill-tab">
+                                    <div class="tabbed-item funnel p-tiny">Responsive web development</div>
+                                    <div class="tabbed-item funnel p-tiny">Debugging</div>
+                                    <div class="tabbed-item funnel p-tiny">Problem solving</div>
+                                    <div class="tabbed-item funnel p-tiny">Frontend development</div>
+                                    <div class="tabbed-item funnel p-tiny">Web optimization</div>
+                                    <div class="tabbed-item funnel p-tiny">API integration</div>
+                                    <div class="tabbed-item funnel p-tiny">Web security</div>
+                                    <div class="tabbed-item funnel p-tiny">Good eye for design</div>
+                                    <div class="tabbed-item funnel p-tiny">Pixel perfect implementaion</div>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="white heading4">Toolbox</h3>
+                                <div class="skill-tab">
+                                    <div class="tabbed-item funnel p-tiny">Next</div>
+                                    <div class="tabbed-item funnel p-tiny">React</div>
+                                    <div class="tabbed-item funnel p-tiny">Typescript</div>
+                                    <div class="tabbed-item funnel p-tiny">Javascript</div>
+                                    <div class="tabbed-item funnel p-tiny">Tailwind css</div>
+                                    <div class="tabbed-item funnel p-tiny">CSS</div>
+                                    <div class="tabbed-item funnel p-tiny">Redux</div>
+                                    <div class="tabbed-item funnel p-tiny">Zustand</div>
+                                    <div class="tabbed-item funnel p-tiny">RestAPI</div>
+                                    <div class="tabbed-item funnel p-tiny">node</div>
+                                    <div class="tabbed-item funnel p-tiny">Express</div>
+                                    <div class="tabbed-item funnel p-tiny">Github</div> 
+                                    <div class="tabbed-item funnel p-tiny">figma</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div>
+                            <h3 class="heading3 white">certifications</h3>
+                            <div class="skill-tab">
+                                <div class="skill p-tiny">Responsive web development</div>
+                                <div class="skill p-tiny">Debugging</div>
+                                <div class="skill p-tiny">Problem solving</div>
+                                <div class="skill p-tiny">Frontend development</div>
+                                <div class="skill p-tiny">Web optimization</div>
+                                <div class="skill p-tiny">Web optimization</div>
+                            </div>
+                        </div> -->
+                     </div>
+                </div>
             </div>
         </section>
         <section id="contact">
              <div class="container">
-                
+                <header>
+                    <h2 class="heading2 orbitron bold">Contact me</h2>
+                </header>
+                <div class="content">
+                     <form action="contact-form">
+                        <label for="">
+                            <span>name</span>
+                            <input type="text">
+                        </label>
+                        <label for="">
+                            <span>email</span>
+                            <input type="text">
+                        </label>
+                        <label for="message">
+                            <span>message</span>
+                            <textarea name="message" id="message"> Hi Haqiim, ...</textarea>
+                        </label>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-
+            <div class="content">
+                <div class="foot-logo">
+                    <a href="#home" class="logo">
+                        <img src="assets/svgs/logo2.svg" alt="">
+                    </a>
+                    <div>&copy; haqiim 2026</div>
+                </div>
+                <nav>
+                     <ul>
+                        <a href="#home">
+                            <li>home</li>
+                        </a>
+                        <a href="#about">
+                            <li>about</li>
+                        </a>
+                        <a href="#works">
+                            <li>work</li>
+                        </a>
+                        <a href="#contact">
+                            <li>contact</li>
+                        </a>
+                        <a href="foot-resume">
+                            resume
+                        </a>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="scripts/script.js" type="module"></script>
 </body>
 </html>
